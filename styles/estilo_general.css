@@ -1,3 +1,4 @@
+/*Colores*/
 :root {
     --color-principal:#0750d0;
     --color-secundario:#a1052c;
@@ -10,4 +11,49 @@
 
 body{
     background-color: var(--color-fondoOscuro);
+}
+/*tamaño de letra*/
+h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--color-textoPrincipal);
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--color-textoPrincipal);
+}
+
+h3{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--color-textoPrincipal);
+}
+
+h4{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--color-textoPrincipal);
+}
+
+h5{
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--color-textoPrincipal);
+}
+
+.textoGeneral{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-textoPrincipal);
+}
+
+.margencardbody{
+    text-align: center;
+}
+
+.iconoscard{
+    font-size: 100px;
+    color: var(--color-textoPrincipal);
 }

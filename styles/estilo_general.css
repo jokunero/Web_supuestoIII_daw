@@ -49,11 +49,32 @@ h5{
     color: var(--color-textoPrincipal);
 }
 
+/*clases cards*/
 .margencardbody{
     text-align: center;
+    margin-left: 70px;
+    margin-right:70px ;
 }
 
 .iconoscard{
     font-size: 100px;
     color: var(--color-textoPrincipal);
+}
+
+.cardcolor{
+background-color: #101010;
+}
+
+.cardcolor:hover{
+    background: linear-gradient(
+        135deg,
+        #392A7E 0%, 
+        #32256B 100% 
+    );
+}
+
+/*generales*/
+.separador{
+    width: 100%;
+    height: 80px;
 }

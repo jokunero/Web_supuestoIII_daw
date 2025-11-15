@@ -79,7 +79,27 @@ background-color: #101010;
     height: 80px;
 }
 
+.botongeneral{
+    background: linear-gradient(135deg, #a1052c,#0750d0);
+    color: var(--color-textoPrincipal);
+}
+
 .textoenlaces{
     color: white;
-    font-weight: 600;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.textoenlaces:hover{
+    color: var(--color-principal);
+}
+
+
+/* UNICON & Game Expo */
+
+.expocontenedor{
+    background-image: url(../resources/img/img1.webp);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }

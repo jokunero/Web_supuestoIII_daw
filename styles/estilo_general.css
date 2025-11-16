@@ -63,14 +63,11 @@ h5{
 
 .cardcolor{
 background-color: #101010;
+transition: all 0.3s ease;
 }
 
 .cardcolor:hover{
-    background: linear-gradient(
-        135deg,
-        #392A7E 0%, 
-        #32256B 100% 
-    );
+    background-color: #32256B;
 }
 
 /*generales*/
@@ -88,6 +85,15 @@ background-color: #101010;
     color: white;
     font-weight: 400;
     text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.textoenlaces:hover{
+    color: white;
+    border-bottom: solid 3px #0750d0;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    transform: rotate(4deg);
 }
 
 .textoenlaces:hover{
@@ -102,4 +108,18 @@ background-color: #101010;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+}
+
+/*footer*/
+
+.inputfooter{
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1px black;
+    color: var(--color-textoPrincipal);
+}
+.botonfooter{
+  background-color: transparent;
+    border: none;
+    color: var(--color-textoPrincipal);
 }

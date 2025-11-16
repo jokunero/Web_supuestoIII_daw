@@ -12,36 +12,37 @@
 </head>
 <body>
 
-    <!-- navegacion-->
-    <nav class="navbar navbar-expand-lg fixed-top" >
-    <div class="container">
-        <!--logo-->
-        <a class="navbar-brand textoenlaces" href="#">
-            <img src="./resources/img/logo-light.webp" alt="">
-        </a>
+<!-- navegacion -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-            <a class="nav-link textoenlaces" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link textoenlaces" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link textoenlaces" aria-disabled="true">Disabled</a>
-            </li>
-        </ul>
-        <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-            <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-        </div>
+    <!-- logo -->
+    <a class="navbar-brand" href="#">
+      <img src="./resources/img/logo-light.webp" alt="">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarTogglerDemo02">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+        <li class="nav-item"><a class="nav-link textoenlaces" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link textoenlaces" href="#">Blog</a></li>
+        <li class="nav-item"><a class="nav-link textoenlaces" href="#">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link textoenlaces" href="#">Pages</a></li>
+        <li class="nav-item"><a class="nav-link textoenlaces" href="#">Shop</a></li>
+        <li class="nav-item"><a class="nav-link textoenlaces" href="#">Contacts</a></li>
+        <li class="nav-item"><a class="nav-link textoenlaces" href="#">Elements</a></li>
+        <li class="nav-item"><a class="nav-link textoenlaces" href="#"><i class="bi bi-search"></i></a></li>
+        <li class="nav-item"><a class="nav-link textoenlaces" href="#"><i class="bi bi-bag"></i></a></li>
+      </ul>
+
     </div>
-    </nav>
+  </div>
+</nav>
     <!--Hero-->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
 
@@ -238,6 +239,58 @@
     <div class="separador"></div>
     <div class="separador"></div>
     <div class="separador"></div>
+
+    <!-- footer-->
+
+    <footer class="container-fluid" style="background-color: rgb(44, 41, 41);">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 text-center">
+                <div class="col d-flex flex-column mt-5">
+                    <img src="./resources/img/logo-light.webp" alt="" width="50%" height="40rem">
+                    <input class="inputfooter mt-3 mb-3" type="text" placeholder="Enter your email">
+                    <button class="text-start botonfooter mb-5"><i class="bi bi-arrow-right"> </i> Subcribe</button>
+                    <p class="textoGeneral text-start">The world without photography
+                         will be meaningless to us</p>
+                </div>
+                <div class="col text-start mt-5 d-flex flex-column">
+                    <p class="textoGeneral" style="font-weight: bold;">Address</p>
+                    <p class="textoGeneral mt-4 mb-0">Baker Street 223b London, CA 70413</p>
+                    <p class="textoGeneral mb-2">Open: 9:30 AM 5:30PM</p>
+                    <p class="textoGeneral mb-2">Phone: +1(800) 456 37 11</p>
+                    <p class="textoGeneral mb-4">Email: support@promo-theme.com</p>
+                    <p class="textoGeneral" style="font-size: 1.5rem;">
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-twitter"></i>
+                    </p>
+                </div>
+                <div class="col text-start mt-5 d-flex flex-column">
+                    <p class="textoGeneral" style="font-weight: bold;">Recent Posts</p>
+                    <p class="mt-4 mb-0">kills You Slowly</p>
+                    <p class="textoGeneral mb-2">November 8,2019 </p>
+                    <p class="mb-0">Clout</p>
+                    <p class="textoGeneral mb-2">April 22,2019</p>
+                    <p class="mb-0">Jerome</p>
+                    <p class="textoGeneral">April 22,2019</p>
+                </div>
+                <div class="col text-start mt-5 d-flex flex-column">
+                    <p class="textoGeneral" style="font-weight: bold;">Recent Comments</p>
+                    <p class="textoGeneral mt-4 mb-2">Elena Cobsky - Driving Engagement Online</p>
+                    <p class="textoGeneral mb-2">John Michel - Designing for the Web in 2019</p>
+                    <p class="textoGeneral">Anton Stockman - Streamlining the Path to Conversion</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <hr class="col-12" style="height: 3px; background-color: rgb(97, 88, 88); border: none;">
+                    <div class="col-6 text-start textoGeneral mb-3">&copy; 2024 GameFusion StudiosTeam | <a href="">Privacy Policy</a> | Sitemap</div>
+                    <div class="col-6 text-end textoGeneral">All Rights Reserved.</div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </footer>
 
     <script src="./resources/javascript/contador.js"></script>
 </body>

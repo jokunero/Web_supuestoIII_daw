@@ -101,6 +101,40 @@ transition: all 0.3s ease;
 }
 
 
+/*Lastest matches*/
+.seccionmatch{
+    background-color: #120718;
+    border-bottom: solid 2px #1f0c2a;
+}
+
+.cardmatch{
+    background-color: #0A0614 ;
+    width: 8rem;
+    height: 100%;
+}
+
+.titulomatch{
+    font-size:20px ;
+    color: var(--color-textoPrincipal);
+}
+
+.numeromatch{
+    font-size: 20px;
+    color: var(--color-AcentoAdicional);
+}
+
+.textotitulomatch{
+    font-size: 1.5rem;
+    color: var(--color-textoPrincipal);
+    font-weight: 700;
+}
+.textomatch{
+    font-size: 1.2;
+    color: var(--color-textoPrincipal);
+    font-weight: 600;
+}
+
+
 /* UNICON & Game Expo */
 
 .expocontenedor{

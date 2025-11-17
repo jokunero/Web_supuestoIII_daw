@@ -1,0 +1,31 @@
+:root {
+    --color-principal:#0750d0;
+    --color-secundario:#a1052c;
+    --color-fondoClaro:#f9f9f9;
+    --color-fondoOscuro:#000000;
+    --color-AcentoAdicional:#9a50fc;
+    --color-textoPrincipal:#ffffff;
+    --color-textoSecundario:#d3d3d3;
+}
+
+.carousel-indicators {
+    justify-content: flex-start !important; 
+    left: 20px;  
+    bottom: 20px;
+}
+
+.carousel-indicators [data-bs-target] {
+    text-indent: 0 !important;
+    width: 50px;
+    height: 30px;      
+    background-color: var(--color-principal);  
+    opacity: 1;
+    color: var(--color-textoPrincipal);
+    font-size: 15px;
+    transform: skewX(40deg);
+}
+
+.carousel-indicators button.active {
+    background-color: var(--color-AcentoAdicional);
+    color: var(--color-textoPrincipal);
+}

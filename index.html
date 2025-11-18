@@ -48,9 +48,18 @@
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
 
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">01</button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">02</button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">03</button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active d-flex justify-content-center align-items-center" aria-current="true" aria-label="Slide 1">
+                <div class="titbtnhero">
+                    01
+                </div>
+                <div class="barra">/</div>
+            </button>
+            
+            <button type="button" data-bs-target="#carouselExampleIndicators" class="d-flex justify-content-center align-items-center" data-bs-slide-to="1" aria-label="Slide 2">
+                <div class="titbtnhero">02</div>
+                <div class="barra">/</div>
+            </button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"><div class="titbtnhero">03</div></button>
         </div>
 
 
@@ -126,7 +135,10 @@
                      doloribus earum atque. Aliquam.</p>
             </div>
             <div class="col">
-                <img src="./resources/img/img1.webp" alt="" width="100%" height="100%">
+                <video width="100%" height="100%" loop="true" muted autoplay>
+                    <source src="./resources/videos/video_sobre_nosotros.mp4" type="video/mp4">
+                    no se carga el video
+                </video>
             </div>
         </div>
     </div>
@@ -138,14 +150,14 @@
      <div class="container">
         <div class="row">
             <div class="col-6 d-flex justify-content-start align-items-center">
-                <h3>Lastest matches</h3>
+                <h3 id="titmatch">Lastest matches</h3>
             </div>
-            <div class="col-6 d-flex justify-content-end align-items-center">
-                <a href="">All</a>/
-                <a href="">CS GO</a>/
-                <a href="">DOTA 2</a>/
-                <a href="">FORTNITE</a>/
-                <a href="">PUBG</a>
+            <div class="col-6 d-flex justify-content-end align-items-center textoGeneral">
+                <a class="enlacematch me-2" href="#titmatch">All</a>/
+                <a class="enlacematch me-2 ms-2" href="#titmatch">CS GO</a>/
+                <a class="enlacematch me-2 ms-2" href="#titmatch">DOTA 2</a>/
+                <a class="enlacematch me-2 ms-2" href="#titmatch">FORTNITE</a>/
+                <a class="enlacematch ms-2" href="#titmatch">PUBG</a>
             </div>
         </div>
 
@@ -455,7 +467,7 @@
         </div>
         
     </footer>
-
+    <script src="./resources/javascript/general.js"></script>
     <script src="./resources/javascript/contador.js"></script>
 </body>
 </html>

@@ -100,7 +100,6 @@ transition: all 0.3s ease;
     color: var(--color-principal);
 }
 
-
 /*Lastest matches*/
 .seccionmatch{
     background-color: #120718;
@@ -132,6 +131,15 @@ transition: all 0.3s ease;
     font-size: 1.2;
     color: var(--color-textoPrincipal);
     font-weight: 600;
+}
+
+.enlacematch{
+    color: var(--color-textoPrincipal);
+    text-decoration: none;
+}
+
+.enlacematch:hover{
+    background-color: orangered;
 }
 
 

@@ -1,4 +1,4 @@
-/*Colores*/
+/*Colores de la pagina*/
 :root {
     --color-principal:#0750d0;
     --color-secundario:#a1052c;
@@ -89,21 +89,31 @@ transition: all 0.3s ease;
 }
 
 .textoenlaces:hover{
-    color: white;
+    color: var(--color-principal);
     border-bottom: solid 3px #0750d0;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
     transform: rotate(4deg);
 }
 
-.textoenlaces:hover{
-    color: var(--color-principal);
+/*Hero*/
+
+.heroimagen{
+    width: 100vw; 
+    height: 100vh; 
+    background-size: cover;
+    background-position: center;
 }
 
-/*Lastest matches*/
+/*ultimos partidos*/
 .seccionmatch{
     background-color: #120718;
     border-bottom: solid 2px #1f0c2a;
+    transition: all 0.4s ease;
+}
+
+.seccionmatch:hover{
+    background: linear-gradient(to right, #3C2369, #074FCD);
 }
 
 .cardmatch{
@@ -164,4 +174,26 @@ transition: all 0.3s ease;
   background-color: transparent;
     border: none;
     color: var(--color-textoPrincipal);
+}
+
+/*boton scroll*/
+.botonscroll{
+    height: 70px ;
+    width: 70px ;
+    background-color: #1f0c2a;
+    color: var(--color-textoPrincipal);
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 40px;
+    right: 25px;
+    transition: all 0.4s ease;
+}
+
+.botonscroll:hover{
+    transform: scale(1.1);
 }

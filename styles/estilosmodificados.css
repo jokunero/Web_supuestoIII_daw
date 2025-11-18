@@ -1,3 +1,4 @@
+/*colores de la pagina*/
 :root {
     --color-principal:#0750d0;
     --color-secundario:#a1052c;
@@ -8,13 +9,12 @@
     --color-textoSecundario:#d3d3d3;
 }
 
+/* modificacion de los botones y su contenedor*/
 .carousel-indicators {
     justify-content: flex-start !important; 
     left: 20px;  
     bottom: 20px;
 }
-
-
 
 .carousel-indicators [data-bs-target] {
     text-indent: 0 !important;
@@ -28,13 +28,14 @@
     margin-right: 0.7rem;
     margin-left: 10px;
 }
-
+    /* clase para la barra entre botones*/
 .barra{
     font-size: 1.5rem;
     color: white;
     transition: all 1s ease;
 }
 
+    /*texto de los botones*/
 .titbtnhero{
     background-color: var(--color-principal);
     min-width: 50px;
@@ -42,7 +43,7 @@
     margin-right: 15px;
     text-align: center;
 }
-
+    /*efecto de movimiento de la barra*/
 .carousel-indicators button.active .barra{
     transform: rotate(70deg);
 }

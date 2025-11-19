@@ -1,3 +1,4 @@
+/*colores*/
 :root {
     --color-principal:#0750d0;
     --color-secundario:#a1052c;
@@ -8,6 +9,7 @@
     --color-textoSecundario:#d3d3d3;
 }
 
+/*Enlaces de las entradas*/
 .enlaceblog{
     color: var(--color-textoPrincipal);
     font-size: 1.1rem ;

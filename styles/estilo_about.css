@@ -1,0 +1,75 @@
+/*Colores de la pagina*/
+:root {
+    --color-principal:#0750d0;
+    --color-secundario:#a1052c;
+    --color-fondoClaro:#f9f9f9;
+    --color-fondoOscuro:#000000;
+    --color-AcentoAdicional:#9a50fc;
+    --color-textoPrincipal:#ffffff;
+    --color-textoSecundario:#d3d3d3;
+}
+
+.margentextoacordeon{
+    margin-right: 15rem;
+}
+
+.imagenequipo{
+    width: 100%;
+    height: 24rem;
+    background-size: cover;
+    background-position: center center;
+    border: none;
+}
+
+.botones{
+    width: 100%;
+    border-bottom: solid 2px gray;
+}
+
+.botonacordeon{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    padding-left: 15px ;
+    padding-right: 25px ;
+    margin-left: 20px;
+    transition: all 0.5s ease;
+}
+
+.botonacordeon:first-child::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -15px;
+    width: 30px;
+    height: 100%;
+    background-color: black;
+    transform: skewX(-30deg);
+}
+
+.botonacordeon:nth-child(2){
+    transform: skewX(-30deg);
+}
+
+.botonacordeon:nth-child(2) p{
+    transform: skewX(30deg);
+}
+
+.botonacordeon:nth-child(3){
+    transform: skewX(-30deg);
+}
+
+.botonacordeon:nth-child(3) p{
+    transform: skewX(30deg);
+}
+
+.botonacordeon p{
+    color: var(--color-textoPrincipal);
+    font-weight: 700;
+}
+
+.botonacordeon:not(.collapsed){
+    margin-left: 0px;
+    background-color: var(--color-principal);
+}

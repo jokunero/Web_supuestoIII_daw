@@ -1,0 +1,42 @@
+/*colores*/
+:root {
+    --color-principal:#0750d0;
+    --color-secundario:#a1052c;
+    --color-fondoClaro:#f9f9f9;
+    --color-fondoOscuro:#000000;
+    --color-AcentoAdicional:#9a50fc;
+    --color-textoPrincipal:#ffffff;
+    --color-textoSecundario:#d3d3d3;
+}
+
+.botontienda{
+    width: 100%;
+    background-color: var(--color-fondoOscuro);
+    border: solid 1px gray;
+    color: gray;
+    padding-top: 13px ;
+    padding-bottom: 13px;
+}
+
+.botoncategorias{
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px gray;
+    background-color: var(--color-fondoOscuro);
+    color: var(--color-textoPrincipal);
+    text-align: start;
+    font-weight: 600;
+    padding-top: 13px ;
+    padding-bottom: 13px;
+}
+
+.seccionlateralderecha{
+    padding-left: 5rem;
+}
+
+.textoenlaceshop{
+    color: var(--color-textoPrincipal);
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+

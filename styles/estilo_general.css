@@ -79,6 +79,12 @@ transition: all 0.3s ease;
 .botongeneral{
     background: linear-gradient(135deg, #a1052c,#0750d0);
     color: var(--color-textoPrincipal);
+    transition: all 0.3s ease;
+}
+
+.botongeneral:hover{
+    transform: scale(1.1);
+    color: var(--color-textoPrincipal);
 }
 
 .textoenlaces{
@@ -176,6 +182,12 @@ transition: all 0.3s ease;
     color: var(--color-textoPrincipal);
 }
 
+/*contador*/
+.iconocontador{
+    text-align: center;
+    font-size: 50px;
+}
+
 /*boton scroll*/
 .botonscroll{
     height: 70px ;
@@ -196,4 +208,9 @@ transition: all 0.3s ease;
 
 .botonscroll:hover{
     transform: scale(1.1);
+}
+
+.bannercookies{
+    background-color: #000000dd;
+    backdrop-filter: blur(7px);
 }

@@ -10,7 +10,12 @@
 }
 
 .margentextoacordeon{
-    margin-right: 15rem;
+    margin-right: 30%;
+}
+
+.imagenacordeon{
+    width: 70%;
+    height: 400px;
 }
 
 .imagenequipo{

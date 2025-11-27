@@ -13,10 +13,10 @@ botonaceptar.addEventListener("click",()=>{
     localStorage.setItem("panel","false")
 
     if (localStorage.getItem("panel") == "false") {
-        panel.style.display = "none"
+        panel.remove()
     }
 })
 
 if (localStorage.getItem("panel") == "false") {
-    panel.style.display = "none"
+    panel.remove()
 }

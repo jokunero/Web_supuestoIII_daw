@@ -9,6 +9,10 @@
     --color-textoSecundario:#d3d3d3;
 }
 
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
 body{
     background-color: var(--color-fondoOscuro);
 }
@@ -102,6 +106,11 @@ transition: all 0.3s ease;
     transform: rotate(4deg);
 }
 
+.navbar-toggler{
+    background-color: white;
+}
+
+
 /*Hero*/
 
 .heroimagen{
@@ -109,6 +118,21 @@ transition: all 0.3s ease;
     height: 100vh; 
     background-size: cover;
     background-position: center;
+}
+/*eventos*/
+
+.imagenevento{
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 320px;
+}
+
+.textoevento{
+    background-color: #000000d0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /*ultimos partidos*/

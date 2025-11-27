@@ -40,3 +40,34 @@
     font-weight: 700;
 }
 
+.imagentienda{
+    width: 190px;
+    height: 190px;
+    background-position: center;
+    background-size: cover;
+}
+
+.botontagtienda{
+    background-color: rgb(54, 53, 53);
+    color: var(--color-textoPrincipal);
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    margin: 10px;
+}
+
+@media (min-width: 1000px) {
+    .imagentienda {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .imagentienda {
+        width: 500px;
+        height: 500px;
+    }
+}
